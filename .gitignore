@@ -8,5 +8,5 @@ cypress/screenshots/
 cypress/videos/
 
 #sample cypress tests
-cypress/integration/2-advanced-examples/*.js
-cypress/integration/1-getting-started/*.js
+cypress/integration/2-advanced-examples/
+cypress/integration/1-getting-started/
