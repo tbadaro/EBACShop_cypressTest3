@@ -21,6 +21,13 @@ Cypress.Commands.add('login', (user, pass) =>{
             cy.setCookie(key, value)
         })
     })
-
     cy.visit('/wp-admin')
+})
+
+Cypress.Commands.add('checkout', ()=>{
+    cy.request({
+        url: '/checkout/order-received/5433/?key=wc_order_i0DtQeEmUrndC',
+        method: 'GET'
+    })
+    cy.visit('/checkout/order-received/5433/?key=wc_order_i0DtQeEmUrndC')
 })

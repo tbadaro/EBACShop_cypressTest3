@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/tbadaro/EBACShop_cypressTest3#readme",
   "dependencies": {
-    "cypress": "^9.3.1"
+    "cypress": "^9.3.1",
+    "faker": "^6.6.6",
+    "puppeteer": "^13.5.1",
+    "puppeteer-core": "^13.5.1"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
